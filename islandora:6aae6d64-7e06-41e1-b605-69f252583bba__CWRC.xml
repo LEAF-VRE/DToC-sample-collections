@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Linking Ontologies and Vocabularies for Medieval Studies</title>
+				<author><persName> Toby Burrows</persName></author>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Canadian Writing Research Collaboratory</distributor>
+				<address>
+					<addrLine>University of Guelph</addrLine>
+				</address>
+				<availability>
+					<p>Available under a CC-BY-NC license</p>
+				</availability>
+				<date>when="2019"&gt;2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl> Title of work, Ontologies for Linked Data in the Humanities, 2019) prepared
+					for the Ontologies for Linked Dara in the Humanities Workshop at the DH2019
+					conference in Utrecht, sponsored by the <orgName>Alliance for the Digital
+						Humanities Linked Open Data Special Interest Group</orgName>, and organized
+					by <persName>Kim Martin</persName> and <persName>Susan Brown</persName> with
+					committee members <persName>Johanna Drucker</persName>, <persName>Ryan
+						Shaw</persName>, <persName>Joseph T. Tennis</persName>, and
+						<persName>Jasmine Drudge-Willson</persName>….</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200805110340914",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-08-05T15:03:40.914Z",
+	"dcterms:issued": "2020-08-05T15:03:54.652Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200805110340914#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200805110340914#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://commons.cwrc.ca//islandora:3b729647-5e55-4e8e-96c6-1c98dbe1986d",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description></rdf:RDF></xenoData><xenoData/>
+		<profileDesc>
+			<abstract>
+				<p> This paper examines the use of Linked Data ontologies and vocabularies in the
+					research field of medieval studies, based on work done by the “Mapping
+					Manuscript Migrations” (MMM) project since 2017. This has included applying a
+					unified data model and reconciling data for five main classes of entities:
+					Persons, Places, Organizations, Works, and Manuscripts. For each of these
+					classes, we review the identifiers used in MMM’s source datasets, and note the
+					way in which these tend to rely on generic vocabularies rather than specialist
+					medieval ones. We also suggest some directions for building a more specialized
+					Linked Data environment for medieval studies in the future. </p>
+			</abstract>
+			<textClass>
+				<keywords>
+					<term>TEI</term>
+					<term>text encoding</term>
+					<term>conversison</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+
+			<div type="chapter">
+				<head><bibl><title type="a">Linking Ontologies and Vocabularies for Medieval
+							Studies<lb/></title><author><persName key="Burrows, Toby." ref="http://viaf.org/viaf/93723421/">Toby
+								Burrows</persName><note>University of Oxford</note></author>
+					</bibl>
+				</head> <p>This paper examines the use of Linked Data ontologies and vocabularies in
+				the research field of medieval studies, based on work done by the “<orgName ref="https://commons.cwrc.ca//cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="Mapping Manuscript Migrations" cert="high">Mapping Manuscript
+					Migrations</orgName>” (MMM) project since <date when="2017" cert="high">2017</date>. This has included applying a unified data model and reconciling
+				data for five main classes of entities: Persons, Places, Organizations, Works, and
+				Manuscripts. For each of these classes, we review the identifiers used in <orgName key="Mapping Manuscript Migrations" ref="https://commons.cwrc.ca//cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c">MMM</orgName>’s source datasets, and note the way in which these tend to rely
+				on generic vocabularies rather than specialist medieval ones. We also suggest some
+				directions for building a more specialized Linked Data environment for medieval
+				studies in the future.</p><div type="sub-section">
+					<head>Context</head>
+					<p>Medieval studies is a large field of research, covering the entire history
+						and culture of <placeName key="Western Europe">Western Europe</placeName>
+						for more than a thousand years, from the fifth to the fifteenth centuries.
+						The major conferences, like the annual <orgName ref="http://www.wikidata.org/entity/Q17081602" key="International Medieval Congress" cert="high">International Medieval
+							Congress</orgName> in <placeName key="Leeds England United Kingdom" ref="http://geonames.org/2644688">Leeds</placeName>, contain more than
+						750 sessions with over 2,500 participants. There is a vast literature of
+						printed and electronic publications, and an increasingly complex environment
+						of digital resources of many different kinds. In this digital environment,
+						however, there is nothing resembling the recent initiatives in closely
+						related research fields (especially classics and ancient history, and early
+						modern studies) to develop tools and resources for data linkage. At the
+						heart of these initiatives is Linked Open Data – both as a paradigm and as a
+						set of specifications, tools, and methodologies, loosely coordinated by the
+							<orgName key="Linked Pasts Network" ref="http://www.wikidata.org/entity/Q73896570">Linked Pasts
+							Network</orgName>. [1]</p>
+					<p>In this paper, we examine the current situation in medieval studies and
+						present proposals for future directions in the application of Linked Open
+						Data to this research field. Our proposals build on work already being
+						carried out as part of the “Mapping Manuscript Migrations” (MMM) project, an
+						international collaboration between the <orgName ref="https://commons.cwrc.ca//cwrc:aeff80c3-fe57-4c0c-ba7c-4c39d79836bf" key="Oxford University" cert="high">University of Oxford</orgName>, the
+							<orgName key="University of Pennsylvania" ref="https://commons.cwrc.ca//cwrc:4b300b27-92f1-4577-bb0e-6553e8704ef5">University of Pennsylvania</orgName>, <orgName key="Aalto University" ref="http://www.wikidata.org/entity/Q300980">Aalto University</orgName>,
+						and the <orgName ref="http://viaf.org/viaf/136837194/" key="Institut de recherche et d'histoire des textes France" cert="high">Institut de recherche et d’histoire des textes</orgName>. [2] Funded by
+						the Trans-Atlantic Platform under its Digging into Data Challenge for <date from="2017" to="2020" cert="high">2017-2020</date>, Mapping Manuscript
+						Migrations focuses on aggregating data from four major data sources relating
+						to medieval manuscripts: the <orgName key="Schoenberg Database of Manuscripts (SDBM)" ref="http://www.wikidata.org/entity/Q94994669">Schoenberg Database of
+							Manuscripts</orgName>, <orgName key="Medieval Manuscripts in Oxford Libraries" ref="http://www.wikidata.org/entity/Q84825958">Medieval Manuscripts in
+							Oxford Libraries</orgName>, <orgName ref="http://bibale.irht.cnrs.fr/" key="Bibale" cert="high">Bibale</orgName>, and Medium. The methodologies
+						being deployed include a unified data model derived from the <orgName ref="http://www.wikidata.org/entity/Q624005" key="CIDOC Conceptual Reference Model" cert="high">CIDOC-CRM</orgName>
+						and <orgName ref="http://www.wikidata.org/entity/Q5427036" key="FRBRoo" cert="high">FRBROO</orgName> ontologies, and a matching and
+						reconciliation process based on Linked Data identifiers and
+						vocabularies.</p>
+					<p>For the MMM project, the main ontological classes are Manuscripts, Persons,
+						Organizations, Places, and Works. While the Manuscripts class could be
+						expanded to cover Objects more broadly, manuscripts are the most common
+						surviving type of object from the medieval period and the most valuable
+						evidence from a range of interdisciplinary research perspectives. As well as
+						being the main focus of medieval research, they exemplify most of the issues
+						connected with the deployment of Linked Data ontologies and
+						vocabularies.</p>
+				</div>
+				<div type="sub-section">
+					<head>Data model</head>
+					<p>Each of the source datasets involved in the <orgName ref="https://commons.cwrc.ca//cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="Mapping Manuscript Migrations" cert="high">MMM</orgName> project
+						have their own preconditions and goals, and thus follow their own data
+						modeling conventions. The Schoenberg Database records primarily provenance
+						events and observations of manuscripts at specific points in time, based on,
+						e.g., auction catalogs, while in Bibale and the Bodleian catalogue the main
+						focus is on describing manuscripts as objects. In order to aggregate the
+						datasets and use them with shared user interfaces and tools for answering a
+						wide range of research questions, a unified data model for harmonizing them
+						is needed.</p>
+					<p>The model applied in the project is based on the <orgName ref="http://www.wikidata.org/entity/Q624005" key="CIDOC Conceptual Reference Model" cert="high">CIDOC-CRM</orgName>
+						and <orgName ref="http://www.wikidata.org/entity/Q5427036" key="FRBRoo" cert="high">FRBROO</orgName> ontologies, where the essential distinction
+						between works, expressions, manifestations, and items are considered [3].
+						The most essential core classes in the model are (1) physical manuscript
+						objects with properties such as shelf-mark, owner and title, and (2)
+						provenance events that describe events related to the manuscripts, such as
+						production, appearance in an auction, acquisition, etc. These ontologies
+						were chosen as the basis because they are modern standards for data
+						harmonization in museums and libraries, respectively, and they support
+						event-based modeling needed in modeling provenance data that are essentially
+						chains of events concerning the manuscript objects.</p>
+					<p>The <orgName ref="http://www.wikidata.org/entity/Q624005" key="CIDOC Conceptual Reference Model" cert="high">CIDOC-CRM</orgName>
+						and FRBROO ontologies have been extended in the MMM project to suit the
+						modeling needs of the source databases. Extensions include 1) subclasses of
+						crm:E54_Dimension for representing the height, width, and folio, column, and
+						line count of the manuscript; 2) specific properties for linking the
+						entities to source databases, such as to manuscript records, observation
+						entries, and data providers; 3) subproperties of crm:P1_is_identified_by to
+						express different shelfmark conventions; and 4) representation of the roles
+						of participants in events, such as author, scribe, artist, binder, patron or
+						selling agent.</p>
+				</div>
+				<div type="sub-section">
+					<head>Places</head>
+					<p>The majority of places in the source datasets for the <orgName ref="https://cwrc.ca/islandora/object/cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="MMM" cert="high">MMM</orgName> project can be matched to
+						identifiers from one or more of the most widely used generic Linked Open
+						Data vocabularies: the <orgName ref="http://www.wikidata.org/entity/Q1520117" key="Getty Thesaurus of Geographic Names" cert="high">Getty Thesaurus of
+							Geographical Names</orgName> (TGN) and GeoNames. TGN is much smaller
+						than <orgName ref="http://www.wikidata.org/entity/Q830106" key="GeoNames" cert="high">GeoNames</orgName> but more historically oriented and
+						actively curated. Neither has anything like the coverage of the gazetteers
+						produced by mapping agencies. For <placeName key="United Kingdom of Great Britain and Northern Ireland  United Kingdom" ref="http://geonames.org/2635167">Great Britain</placeName>, for
+						example, TGN has only half as many places names as GeoNames, but this in its
+						turn has only a fraction of the names provided by the Ordnance Survey.
+						[4]</p>
+					<p>The MMM datasets, in which medieval, early modern, and modern place names are
+						all present, have their preferred default vocabulary: <persName key="GeoNames" ref="http://www.wikidata.org/entity/Q830106">GeoNames</persName> for Bibale, and TGN for Schoenberg and Oxford. None
+						of these datasets makes use of a gazetteer specifically designed to cover
+						medieval places and their medieval names. This is partly, at least, because
+						the evidence in the MMM source datasets focuses on the history of
+						manuscripts in the post-medieval world. The places referred to are usually
+						(though not always) the same as places which exist today, and they are
+						usually presented in modern languages, not in Latin. For medieval places in
+							<placeName key="England England United Kingdom" ref="http://geonames.org/6269131">England</placeName>, the best source
+						of data is the <orgName ref="https://commons.cwrc.ca//cwrc:e10afbc6-fa1f-48da-81a4-9610726daf48" key="Survey of English Place Names" cert="high">Survey of English Place
+							Names</orgName>, published by the English Place Name Society and
+						digitized as part of the Historical Gazetteer of England’s Place-Names. This
+						is not yet available as Linked Data, though its creators claimed that it
+						would be “relatively easy to convert it to RDF”. [5]</p>
+				</div>
+				<div type="sub-section">
+					<head>Persons</head>
+					<p>In the source datasets for the <orgName ref="https://cwrc.ca/islandora/object/cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="MMM" cert="high">MMM</orgName> project, “person” entities can cover
+						everything from medieval authors to early modern owners to modern buyers and
+						sellers of manuscripts. The three datasets are consistent in using VIAF
+						identifiers as their primary source for persons. In the Schoenberg Database
+						of Manuscripts, VIAF is the preferred source. In the Bodleian catalogue,
+						VIAF identifiers are supplemented by other sources, including the Library of
+							<orgName key="Library of Congress" ref="http://www.wikidata.org/entity/Q131454">Congress</orgName>,
+							<orgName key="Wikidata"><orgName ref="http://www.wikidata.org/entity/Q2013" key="Wikidata" cert="high">Wikidata</orgName></orgName>, <orgName key="SUDOC" ref="http://www.wikidata.org/entity/Q2597810">Sudoc</orgName>, <orgName key="Gemeinsame Normadatei" ref="https://www.wikidata.org/wiki/Q94994694">Gemeinsame
+							Normadatei</orgName> (GND), and the Oxford Dictionary of National
+						Biography. Bibale also prefers <orgName key="VIAF">VIAF</orgName>, but adds
+						identifiers from Wikidata and the ARK identifiers from the Bibliothèque
+						nationale de <placeName key="Republic of France  France" ref="http://geonames.org/3017382">France</placeName>; <orgName ref="http://viaf.org/viaf/309866856/" key="Biblissima - Bibliotheca bibliothecarum novissima (projekt)" cert="high">Biblissima</orgName> identifiers are also referenced.</p>
+					<p>None of the MMM datasets makes reference to any specifically medieval name
+						authorities. There are many lists and catalogues of medieval persons and
+						their names, and a significant number of these are available in digital
+						form. [6] It is worth noting that several of the digital sources are
+						commercial products, distributed by publishers like <orgName key="Brepols" ref="http://www.wikidata.org/entity/Q981917">Brepols</orgName>. These
+						include Europa Sacra (with data on 30,000 church prelates) and the author
+						indexes to the Library of Latin Texts. Some specific initiatives are already
+						under way, including the work by the “Medieval Publishing” project at the
+							<orgName key="University of Helsinki" ref="http://dbpedia.org/resource/University_of_Helsinki">University of
+							Helsinki</orgName> to transform <persName key="Richard Sharpe" ref="http://viaf.org/viaf/40146825568807632710/">Richard
+							Sharpe</persName>’s <title ref="https://commons.cwrc.ca//islandora:3b729647-5e55-4e8e-96c6-1c98dbe1986d" key="The Seed Savers" level="m" cert="high">Handlist of the Latin Writers of Great Britain and
+							<placeName key="Ireland  Ireland" ref="http://geonames.org/2963597">Ireland</placeName> before 1540</title> into database form. [7] Publishing this
+						dataset as Linked Data is envisaged as a second stage for this project.</p>
+				</div>
+				<div type="sub-section">
+					<head>Organizations</head>
+					<p>Organizations are not always distinguished from places in the source datasets
+						for the <orgName ref="https://cwrc.ca/islandora/object/cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="MMM" cert="high">MMM</orgName> project. The interface to the Oxford
+						manuscripts catalogue simply includes organizations in its browsable list of
+						“places”. This is because the majority of these organizations are medieval
+						religious houses of various kinds, which are usually known by a place name,
+						such as “<placeName key="Abingdon Abbey" ref="http://www.wikidata.org/entity/Q2820496">Abingdon</placeName>,
+						Benedictine abbey”. Behind the scenes, however, they are linked to the VIAF
+						(Virtual International Authority File) vocabulary. Other identifiers are
+						also given, including Wikidata, the Library of Congress, Sudoc, and ARK
+						identifiers from the Bibliothèque nationale de France.</p>
+					<p>In the Schoenberg Database of Manuscripts, on the other hand, organizations
+						are combined with persons into a “Names” file. These are both medieval and
+						modern, and include a significant number of religious houses. A large
+						proportion of the organizational names have been matched to <orgName ref="http://www.wikidata.org/entity/Q54919" key="Virtual International Authority File" cert="high">VIAF</orgName>
+						identifiers. Bibale’s organizations consist mostly of libraries and other
+						institutional owners of manuscripts (especially medieval and early modern
+						religious houses). VIAF is again consistently used, accompanied by
+						identifiers from the <orgName ref="http://www.wikidata.org/entity/Q193563" key="Bibliothèque nationale de France" cert="high">Bibliothèque
+							nationale de France</orgName>, <orgName key="Biblissima - Bibliotheca bibliothecarum novissima (projekt)" ref="http://viaf.org/viaf/309866856/">Biblissima</orgName>, and
+						Wikidata.</p>
+					<p>Organizations as a class raise various questions of scope and definition in a
+						medieval context. In medieval England, for instance, Anglo-Saxon
+						administrative units like “hundreds” could be considered primarily as
+						places, since they were defined as geographical areas within a county or
+						shire. But the Norman system of government overlaid on top of this framework
+						after 1066 was less conceptually clear; the “honours” and “baronies” of the
+						great lords consisted of various estates scattered across the country, which
+						were primarily organizational and administrative in nature. [8] A specialist
+						Linked Open Data vocabulary for medieval organizations in England could be
+						drawn from existing lists of baronies and religious houses, together with
+						data relating to offices within the structure of royal government and to the
+						administrative hierarchy of the <orgName ref="https://commons.cwrc.ca//cwrc:3bf4fbbc-144c-40da-86d2-07550471c7b0" key="Church of England" cert="high">Church</orgName>.</p>
+				</div>
+				<div type="sub-section">
+					<head>Works</head>
+					<p>The Works class is problematic in the source datasets for the <orgName ref="https://cwrc.ca/islandora/object/cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="MMM" cert="high">MMM</orgName> project. They contain very little in
+						the way of links to external Linked Open Data identifiers for works, and
+						some do not even distinguish “works” – or even titles – as a separate
+						element in their data. The Schoenberg Database, for example, does not
+						contain separate records for works or titles; they are simply recorded as
+						part of the observation record. In the Oxford manuscript catalogue, on the
+						other hand, the a provides a unique ID number for more than 12,000 works. It
+						records the “uniform title” (author + work), the “manuscript title”, and the
+						“normalised manuscript title”. There are more than 360 links to external
+						identifiers – primarily Pinakes for Greek works and Mirabile for Latin
+						works. Bibale distinguishes between “Oeuvre” (i.e., work) and the
+						“Text/Edition” (i.e., manifestation). There are unique identifiers for both
+						of these, but no links to external identifiers.</p>
+					<p>There are numerous lists and catalogues of medieval religious and literary
+						writings, and many of these are available in some kind of digital form. [6]
+						Among the issues to be tackled here are the <title ref="http://www.wikidata.org/entity/Q1845" key="Bible" level="m" cert="high" rend="normal">Bible</title> and its derivatives (the focus
+						of much medieval writing, especially in the earlier Middle Ages); the
+						multiplicity of anonymous works – often without any kind of title and often
+						identifiable only by their opening words (their “incipit”); and the way in
+						which many medieval “works” actually consist of annotations, commentaries,
+						and glosses on earlier works, as well as re-workings and abridgements of
+						them. The work of the “Medieval Authorship” project is relevant here too,
+						since Sharpe’s Handlist identifies and provides titles for the writings of
+						medieval British and Irish authors.</p>
+				</div>
+				<div type="sub-section">
+					<head>Manuscripts</head>
+					<p>Each of the <orgName ref="https://cwrc.ca/islandora/object/cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="MMM" cert="high">MMM</orgName> source datasets attempts to go
+						beyond simply using the shelf-mark and repository for identifying individual
+						manuscripts. The Bibale database contains links to another IRHT database,
+						Medium, where 109,000 manuscripts have their own ARK identifiers. In the
+							<orgName ref="https://commons.cwrc.ca//cwrc:51e93649-642b-47d3-9b8c-c08d167dfc42" key="bodleian library" cert="high">Bodleian</orgName> catalogue, each
+						manuscript has a unique ID number, but there is no authority list for
+						manuscripts (unlike persons, places, organizations, and works). The creation
+						of ARK identifiers for Oxford manuscripts is currently being investigated by
+						the MMM project and the Bodleian Library. In the Schoenberg Database, each
+						of the nearly 25,000 manuscript records has a unique URL, but they are not
+						accompanied by links to any external identifiers or to an authoritative
+						shelf-mark or title.</p>
+					<p>The need for a system of Linked Data identifiers for medieval manuscripts is
+						now broadly accepted, and has been the subject of several meetings over the
+						last two years. Under the auspices of the <orgName key="Institut de recherche et d'histoire des textes (France)" ref="http://viaf.org/viaf/1145602310801361359/">IRHT</orgName>, a
+						project has been established to develop and test a specification for an
+						International Standard Manuscript Identifier or ISMI. [9] There is still
+						considerable work to be done in defining the scope and purpose of ISMI, as
+						well as in confirming and building the technical solution. Even when the
+						ISMI registry is operational, it will still take a major effort to create
+						and embed these identifiers in local databases for manuscripts with known
+						and established current institutional locations and shelf-marks.
+						Nevertheless, ISMI has the potential to revolutionize medieval manuscript
+						studies by enabling large-scale inter-linking of heterogeneous manuscript
+						data.</p>
+				</div>
+				<div type="sub-section">
+					<head>Conclusion</head>
+					<p>We believe that it is critical to develop, publish and re-use Linked Open
+						Data ontologies and vocabularies in order to further the interoperability of
+						digital resources for medieval studies. The combination of <orgName ref="http://www.wikidata.org/entity/Q624005" key="CIDOC Conceptual Reference Model" cert="high">CIDOC-CRM</orgName>
+						and <orgName ref="http://www.wikidata.org/entity/Q5427036" key="FRBRoo" cert="high">FRBROO</orgName> ontologies, with some extensions, appears
+						to function as a suitable data model for representing manuscripts. The more
+						generalist vocabularies like <orgName ref="http://www.wikidata.org/entity/Q54919" key="Virtual International Authority File" cert="high">VIAF</orgName>
+						and <orgName ref="http://www.wikidata.org/entity/Q1520117" key="Getty Thesaurus of Geographic Names" cert="high">TGN</orgName>
+						already have a reasonably good coverage of medieval persons, places, and
+						organizations, as the MMM project has been able to demonstrate. But the
+						level of that coverage has been inflated to some extent by the scope of
+						datasets relevant to manuscript research, since they include many early
+						modern and modern names as well as medieval ones.</p>
+					<p>The next priority for medieval studies should be the conversion of existing
+						specialist vocabularies to Linked Data formats, accompanied by an
+						investigation of ways in which they can be associated with the more general
+						vocabularies. The work being done by the “Medieval Publishing” project
+						provides a possible model here. While persons, places, and organizations
+						might be considered the “low-hanging fruit” in this context, it will be more
+						important and valuable for the longer term to tackle the more complex issues
+						around works and manuscripts – the latter within the framework envisaged by
+						the ISMI initiative.</p>
+				</div>
+				<div type="sub-section">
+					<head>References</head>
+					<listBibl>
+						<anchor/>
+						<bibl><title><orgName ref="http://www.wikidata.org/entity/Q73896570" key="Linked Pasts Network" cert="high">Linked
+								Pasts</orgName></title>, <ref target="http://linkedpasts.org">http://linkedpasts.org</ref>, last accessed <date>4 May <date when="2019" cert="high">2019</date></date>.</bibl>
+						<bibl><persName>
+								<persName ref="http://viaf.org/viaf/169304061/" key="Hyvönen, Eero" cert="high" type="real">Hyvönen, E.</persName></persName>,
+									<persName><persName ref="https://commons.cwrc.ca//cwrc:e72b34fc-cd6c-4493-96e1-83aff6cea96e" cert="high" type="real">Ikkala, E.</persName></persName>,
+									<persName><persName ref="https://commons.cwrc.ca//cwrc:2888a86c-1116-453a-85f4-b60923c9ddcf" cert="high" type="real">Tuominen, J.</persName></persName> et
+							al.: “<title>A Linked Open Data Service and Portal for Pre-Modern
+								Manuscript Research</title>”, DHN 2019 Conference (<date when="2019" cert="high">2019</date>), <ref target="https://seco.cs.aalto.fi/publications/2019/hyvonen-et-al-dhn-mmm-2019.pdf">https://seco.cs.aalto.fi/publications/2019/hyvonen-et-al-dhn-mmm-2019.pdf</ref>,
+							last accessed <date><date when="2019-05-04" cert="high">4 May
+									2019</date></date>.</bibl>
+						<bibl><persName><persName ref="https://commons.cwrc.ca//cwrc:b2b74e1b-9af1-4734-8f6a-cc2220e8a18d" cert="high" type="real">De Sabbata, S.</persName></persName>,
+									<persName><persName ref="https://commons.cwrc.ca//cwrc:fddd41d9-a0df-4cf7-a5a5-723346154022" cert="high" type="real">Acheson, E.</persName></persName>:
+								“<title>Geographies of gazetteers in Great Britain</title>”, 24th
+							GIS Research UK (GISRUK 2016) Conference (<date when="2016" cert="high">2016</date>), <ref target="https://lre/le/ac/uk/handle/2381/38182">https://lre/le/ac/uk/handle/2381/38182</ref>, last accessed
+									<date><date when="2019-05-04" cert="high">4 May
+								2019</date></date>.</bibl>
+						<bibl><persName><persName ref="https://commons.cwrc.ca//cwrc:0e06ee21-6eca-4edc-973e-cef3311eb776" cert="high" type="real">Le Bœuf, P.</persName></persName>:
+								“<title>Modeling rare and unique documents: Using FRBROO/CIDOC
+								CRM</title>”, <orgName ref="http://www.wikidata.org/entity/Q15763445" key="Journal of Archival Organization" cert="high">Journal of
+								Archival Organization</orgName> 10(2), pp. 96–106 (<date when="2012" cert="high">2012</date>), <ref target="https://doi.org/10.1080/15332748.2012.709164">https://doi.org/10.1080/15332748.2012.709164</ref>, last accessed
+								<date>9 May 2019</date>.</bibl>
+						<bibl><persName><persName ref="https://commons.cwrc.ca//cwrc:909b6bc0-8f43-434b-978b-3497ec757f98" key="Claire Grover" cert="medium" type="real">Grover,
+									C.</persName></persName>, <persName><persName ref="https://commons.cwrc.ca//cwrc:a536cf83-ad78-494e-81fa-962eee98a064" key="Tobin, Richard" cert="high" type="real">Tobin,
+									R.</persName></persName>: “<title cert="high">A Gazetteer
+								and Georeferencing for English Historical Documents</title>”,
+							Proceedings of the 8th Workshop on Language Technology for Cultural
+							Heritage, Social Sciences, and Humanities (LaTeCH) @ EACL 2014, pp.
+							119-127 (<date when="2014" cert="high">2014</date>), <ref target="http://www.aclweb.org/anthology/W14-0617">http://www.aclweb.org/anthology/W14-0617</ref>, last accessed
+								<date>4 May 2019</date>.</bibl>
+						<bibl><persName>Wright, C.</persName>: <title>Manuscript Research:
+								Identifying Texts and Locating Secondary Literature</title>, <ref target="https://bibliography.arc-humanities.org/manuscript-research-identifying-texts-and-locating-secondary-literature/">https://bibliography.arc-humanities.org/manuscript-research-identifying-texts-and-locating-secondary-literature/</ref>,
+							last accessed <date>4 March 2019</date>.</bibl>
+						<bibl><title>Medieval Publishing from c. 1000 to 1500</title>, <ref target="https://www.helsinki.fi/en/researchgroups/medieval-publishing">https://www.helsinki.fi/en/researchgroups/medieval-publishing</ref>,
+							last accessed <date>4 March 2019</date>.</bibl>
+						<bibl><persName><persName ref="http://viaf.org/viaf/92521247/" key="Sanders, I. J." cert="high" type="real">Sanders,
+									I.</persName></persName>: <title cert="high">English
+								Baronies: a Study of their Origin and Descent , 1086-1327</title>.
+									<publisher><orgName ref="https://commons.cwrc.ca//cwrc:c5d0d2f5-2978-4c22-bc10-22f5ca809e97" key="Oxford University Press" cert="high">Oxford University
+									Press</orgName>, Oxford</publisher> (<date when="1960" cert="high">1960</date>).</bibl>
+						<bibl><persName><persName ref="https://www.irht.cnrs.fr/?q=fr/annuaire/cassin-matthieu" key="Cassin, M." cert="high" type="real">Cassin,
+								M.</persName></persName>: <title>ISMI: International Standard
+								Manuscript Identifier: Project of Unique and Stable Identifiers for
+								Manuscripts</title> (<date when="2018" cert="high">2018</date>),
+								<ref target="https://www.manuscript-cultures.uni-hamburg.de/files/mss_cataloguing_2018/Cassin_pres.pdf">https://www.manuscript-cultures.uni-hamburg.de/files/mss_cataloguing_2018/Cassin_pres.pdf</ref>,
+							last accessed <date>4 March 2019</date>.</bibl>
+					</listBibl>
+				</div>
+			</div>
+
+		</body>
+	</text>
+</TEI>

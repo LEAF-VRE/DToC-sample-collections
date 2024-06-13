@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/islandora/object/cwrc%3A5d215a83-f40d-4df4-8081-362f64951117/datastream/CSS/view"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <teiHeader><fileDesc>
+                        <titleStmt>
+                                <title>*Schedule</title>
+                                <author>Kim Martin</author>
+                                <author>Susan Brown</author>
+                        </titleStmt>
+                        <publicationStmt>
+                                <distributor>Canadian Writing Research Collaboratory</distributor>
+                                <address>
+                                        <addrLine>University of Guelph</addrLine>
+                                </address>
+                                <availability>
+                                        <p>Available under a CC-BY-NC license</p>
+                                </availability>
+                                <date when="2019">2019</date>
+                        </publicationStmt>
+                        <sourceDesc>
+                                <bibl>Linked Places: Evolution of a Gazetteer Interconnection Model
+                                        in Knowledge Graphs, Ontologies for Linked Data in the
+                                        Humanities, (2019) prepared for the Ontologies for Linked
+                                        Dara in the Humanities Workshop at the DH2019 conference in
+                                        Utrecht, sponsored by the <orgName>Alliance for the Digital
+                                                Humanities Linked Open Data Special Interest
+                                                Group</orgName>, and organized by <persName>Kim
+                                                Martin</persName> and <persName>Susan
+                                                Brown</persName> with committee members
+                                                <persName>Johanna Drucker</persName>, <persName>Ryan
+                                                Shaw</persName>, <persName>Joseph T.
+                                                Tennis</persName>, and <persName>Jasmine
+                                                Drudge-Willson</persName>….</bibl>
+                        </sourceDesc>
+                </fileDesc><xenoData>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#">
+<rdf:Description rdf:about="https://cwrc.ca/sites/default/modules/islandora_cwrc_writer/build/editor/documents/islandora:fd85b2ba-a06a-4b4a-a2b5-799ad7b254a7">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description></rdf:RDF></xenoData></teiHeader>
+        <text>
+                <body>
+                        <div type="chapter">
+                                <head>*Schedule</head>
+                                <table rows="9" cols="2">
+                                        <row>
+                                                <cell>9:00 AM</cell>
+                                                <cell>Welcome</cell>
+                                        </row>
+                                        <row>
+                                                <cell>9:10 AM</cell>
+                                                <cell>Short Paper Session #1: Time and Place</cell>
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label>
+                                                  <desc>Linking Ontologies and Vocabularies for
+                                                  Medieval Studies</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label>
+                                                  <desc>Toby Burrows, University of Oxford</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label>
+                                                  <desc>How to standardize person and book data to
+                                                  study women's authorship</desc><lb/>
+                                                  <label>Presenter: </label>
+                                                  <desc>Amelia Sanz, Complutense University of
+                                                  Madrid</desc>
+                                                </cell>
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label>
+                                                  <desc>HuTime Ontology to Represent Uncertain Time
+                                                  Intervals</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label>
+                                                  <desc>Tatsuki Sekino, International Research
+                                                  Center for Japanese Studies</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label>
+                                                  <desc>Linked Places: Evolution of a Gazetteer
+                                                  Interconnection Model</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label>
+                                                  <desc>Karl Grossner, University of Pittsburgh
+                                                  World History Center</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label>
+                                                  <desc>Storifying Data: Modeling Historical
+                                                  Processes in Knowledge Graphs. Kubler’s Shape of
+                                                  Time Revisited</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Charles van den
+                                                  Heuvel, Huygens Institute for the History of The
+                                                  Netherlands (KNAW)</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>Nomisma.org – its up
+                                                  growth and resulting issues</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Karsten Tolle,
+                                                  Goethe University</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell>10:00 AM</cell>
+                                                <cell>Discussion/Q&amp;A</cell>
+                                        </row>
+                                        <row>
+                                                <cell>10:15 AM</cell>
+                                                <cell>Break-out Session #1</cell>
+                                        </row>
+                                        <row>
+                                                <cell>10:45 AM</cell>
+                                                <cell>Coffee Break</cell>
+                                        </row>
+                                        <row>
+                                                <cell>11:00 AM</cell>
+                                                <cell>Short Paper Session #2: Models and
+                                                  systems</cell>
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>It's In-Text and in
+                                                  Text: From Strings to URIs in TEI-to-RDF
+                                                  conversion</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Constance
+                                                  Crompton, University of Ottawa</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>The Getty Provenance
+                                                  Index as Linked Open Data, the Linked Art data
+                                                  model and the CIDOC-CRM ontology</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Anne Helmreich,
+                                                  Getty Research Institute</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                        <label>Title: </label><desc>To Reify or Not to Reify: A Linked Open Data Question</desc>
+                                                        <lb/>
+                                                        <label>Presenter: </label><desc>Susan Brown, University of Guelph</desc>
+                                                </cell>
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>REDEN - a Semantic Web
+                                                  based system for Named Entity Linking</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Francesca
+                                                  Frontini, Université Paul-Valéry
+                                                  Montpellier</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>From Taxonomy to
+                                                  Ontology: the Advanced Research Consortium</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>Laura Mandell,
+                                                  Texas A&amp;M University</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell/>
+                                                <cell>
+                                                  <label>Title: </label><desc>Ontology Shift:
+                                                  Cultural Heritage Ontologies in the Time of Linked
+                                                  Open Data</desc>
+                                                  <lb/>
+                                                  <label>Presenter: </label><desc>M. Cristina
+                                                  Pattuelli, Pratt Institute School of
+                                                  Information</desc>
+                                                </cell>
+
+                                        </row>
+                                        <row>
+                                                <cell>11:45 AM</cell>
+                                                <cell>Discussion/Q&amp;A</cell>
+                                        </row>
+                                        <row>
+                                                <cell>12:05 PM</cell>
+                                                <cell>Break-out Session #2</cell>
+                                        </row>
+                                        <row>
+                                                <cell>12:50 PM</cell>
+                                                <cell>Wrap-up</cell>
+                                        </row>
+                                </table>
+
+                        </div>
+                </body>
+        </text>
+</TEI>

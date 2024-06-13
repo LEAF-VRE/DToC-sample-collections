@@ -1,0 +1,3583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://cwrc.ca/islandora/object/cwrc%3A5d215a83-f40d-4df4-8081-362f64951117/datastream/CSS/view"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Getty Provenance Index as Linked Open Data, the Linked Art data model and the CIDOC-CRM ontology</title>
+                <author><persName>Anne Helmreich</persName></author>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>Canadian Writing Research Collaboratory</distributor>
+                <address>
+                    <addrLine>University of Guelph</addrLine>
+                </address>
+                <availability>
+                    <p>Available under a CC-BY-NC license</p>
+                </availability>
+                <date>when="2019"&gt;2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl> Title of work, Ontologies for Linked Data in the Humanities, 2019) prepared for the Ontologies for Linked Dara in the Humanities Workshop at the DH2019 conference in Utrecht, sponsored by the <orgName>Alliance for the Digital Humanities Linked Open Data Special Interest Group</orgName>, and organized by <persName>Kim Martin</persName> and <persName>Susan Brown</persName> with committee members <persName>Johanna Drucker</persName>, <persName>Ryan Shaw</persName>, <persName>Joseph T. Tennis</persName>, and <persName>Jasmine Drudge-Willson</persName>….</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652046",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.046Z",
+	"dcterms:issued": "2020-06-18T18:12:57.213Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652046#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652046#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/bibl/author/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/232002538/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652046",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.046Z",
+	"dcterms:issued": "2020-06-18T18:12:57.215Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652046#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652046#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/bibl/author/note/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/9195156012395149700006/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.047Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://dbpedia.org/resource/International_Organization_for_Standardization",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.047Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652047#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[4]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q3297630",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652047",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.047Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652047#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652047#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[5]/list/item[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://dbpedia.org/resource/Jorge_Luis_Borges",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.048Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1520117",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652048",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.048Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652048#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652048#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://dbpedia.org/resource/United_Kingdom",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.048Z",
+	"dcterms:issued": "2020-06-18T18:12:57.216Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652048#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q830106",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652049",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.049Z",
+	"dcterms:issued": "2020-06-18T18:12:57.217Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652049#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652049#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/6269131",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.049Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q94994669",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.049Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652049#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q54919",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.050Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/orgName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q2013",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.050Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652050#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/orgName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q2597810",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652050",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.050Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652050#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652050#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://geonames.org/3017382",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.051Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q981917",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.051Z",
+	"dcterms:issued": "2020-06-18T18:12:57.218Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q28695",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652051",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.051Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/40146825568807632710/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652051",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.051Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?place_annotation_20200618135652051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/1689156565716923500001/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.052Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q131454",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.052Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q1664768",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.052Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652052#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[8]/publisher/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q217595",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618135652053",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.053Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618135652053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618135652053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "2016"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.053Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q624005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.053Z",
+	"dcterms:issued": "2020-06-18T18:12:57.219Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q46092234",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.053Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652053#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://commons.cwrc.ca//cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.054Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[5]/list/item[3]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://commons.cwrc.ca//islandora:ab0445db-dd7e-476a-b8fe-e8aa065a9d29",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652054",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.054Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652054#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652054#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5378346",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.054Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652054#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/177025655/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.055Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q131454",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.055Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q17565097",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.055Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/178087067/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.055Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?org_annotation_20200618135652055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[6]/p/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/4651159035168601380009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652056",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.056Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652056#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[2]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://commons.cwrc.ca//islandora:32095a6a-75cf-41dd-8f71-c0f53947d661",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.056Z",
+	"dcterms:issued": "2020-06-18T18:12:57.220Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[2]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/169304061/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.056Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[2]/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://orcid.org/0000-0002-9571-7260",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.056Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652056#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[2]/persName[3]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/305619541/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652057",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.057Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652057#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652057#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[3]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://orcid.org/0000-0002-2750-7579",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652057",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.057Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652057#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652057#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[3]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.worldcat.org/title/geographies-of-gazetteers-in-great-britain/oclc/1030050882",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.059Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[3]/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://orcid.org/0000-0002-0641-1172",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652059",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.059Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652059#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652059#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[4]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q58555567",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.059Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652059#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[4]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://isni.org/isni/0000000116057368",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652060",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.060Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652060#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618135652060#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[5]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/65235644/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652060",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T17:56:52.060Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652060#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?title_annotation_20200618135652060#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[5]/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://dx.doi.org/doi:10.3115/v1/W14-0617",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?link_annotation_20200618140110594",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T18:01:10.594Z",
+	"dcterms:issued": "2020-06-18T18:12:57.221Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:linking",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?link_annotation_20200618140110594#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?link_annotation_20200618140110594#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[7]/title/ref"
+		}
+	},
+	"oa:hasBody": {
+		"@id": "https://www.helsinki.fi/en/researchgroups/medieval-publishing#:~:text=from%20c.&amp;text=1000%20to%201500.,at%20the%20University%20of%20Helsinki.",
+		"@type": "cnt:ContentAsText"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618141237807",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T18:12:37.807Z",
+	"dcterms:issued": "2020-06-18T18:12:57.222Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618141237807#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?person_annotation_20200618141237807#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[8]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/6404147665832860670009/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	},
+	"oa:hasCertainty": "cwrc:high"
+}
+]]></rdf:Description>
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618141255015",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2020-06-18T18:12:55.015Z",
+	"dcterms:issued": "2020-06-18T18:12:57.222Z",
+	"dcterms:creator": {
+		"@id": "http://id.cwrc.ca/user/placeholder",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Placeholder",
+		"foaf:nick": "plchldr"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618141255015#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca/",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "1.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://github.com/placeholder/blob/master/placeholder.xml?date_annotation_20200618141255015#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/listBibl/bibl[8]/persName[2]/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1960"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca/",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "1.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData><profileDesc>
+            <abstract>
+                <p>For the workshop “Ontologies for Linked Data in the Humanities” we propose to present and discuss two inter-related enterprises; the remodel of the Getty Research Institute’s Getty Provenance Index as Linked Open Data and the Linked Art data model. At the core of this project are three inter-twined undertakings: data preparation, data model construction (Linked Art) in dialogue with a designated ontology (CIDOC-CRM), and content management system development (Arches).</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term>art</term>
+                    <term>provenance</term>
+                    <term> Getty Vocabularies</term>
+                    <term> Linked Art</term>
+                    <term> CIDOC-CRM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- The type attribute in the <div> tags determines how DToC will read that section. The general DToC document structure includes multiple chapers followed by an index. However, you can add forward, afterwords, etc. by chaging the <div> type attribute -->
+            <div type="chapter">
+                <head> <bibl><title>The Getty Provenance Index as Linked Open Data, the Linked Art data model and the CIDOC-CRM ontology</title> <lb/><author><persName key="Helmreich, Anne L." ref="http://viaf.org/viaf/232002538/">Anne Helmreich</persName><note><orgName key="Getty Research Institute (Los Angeles)" ref="http://viaf.org/viaf/9195156012395149700006/">Getty Research Institute</orgName></note></author> </bibl> </head>
+                <div type="sub-section">
+                    <p> In <date when="2016" cert="high">2016</date>, the Getty Research Institute decided to embark on an ambitious project to remodel the Inventories, Sales and Stock Book databases in the Getty Provenance Index as Linked Open Data in order to facilitate discovery across databases that had been formerly siloed, and to surface existing relationships amongst the data. It was part of a broader recognition that the value of the Getty Provenance Index lay not only in the ability to track the trajectory of an individual work of art but also the ability to discern larger patterns of activities within a marketplace heavily inflected by changing social, political, and economic conditions as well as changing notions of taste. It also built upon the institution’s experience in transforming the Getty Vocabularies into Linked Open Data.</p>
+                    <p> At the core of this project are three intertwined undertakings: data preparation, data model construction in dialogue with a designated ontology, and content management system development. With respect to the data, it has been subject to ongoing enhancement and transformation, including extending the processes of data cleaning, reconciliation and disambiguation, and name authority in order to support the assignment of unique resource identifiers. </p>
+                    <p>This data work has been informed by and executed in dialogue with the development of the Linked Art data model. This work leverages the <orgName ref="http://www.wikidata.org/entity/Q624005" key="CIDOC Conceptual Reference Model" cert="high">CIDOC-CRM</orgName> ontology which “provides definitions and a formal structure for describing the implicit and explicit concepts and relationships used in cultural heritage documentation” (<ref target="http://www.cidoc-crm.org/">http://www.cidoc-crm.org/</ref>). The CIDOC-CRM has been a decades long collaborative effort and has been recognized as an international standard, as of 1999 registered with <orgName key="International Organization for Standardization" ref="http://dbpedia.org/resource/International_Organization_for_Standardization">ISO</orgName>. At that moment, its primary scope was defined as “the exchange and integration of heterogeneous scientific documentation relating to museum collections”<ref target="https://www.iso.org/standard/34424.html">https://www.iso.org/standard/34424.html</ref>). Linked Art has likewise emerged from the art museum domain having been first developed for the <orgName ref="http://www.wikidata.org/entity/Q46092234" key="American Art Collaborative" cert="high">American Art Collaborative</orgName>, a consortium of fourteen art museums (<ref target="http://americanartcollaborative.org/">http://americanartcollaborative.org</ref>/) and is now a community effort that includes research enterprises as well as cultural heritage organizations seeking to provide consistency in definitions and requirements for a shared model based on Linked Open Data to describe Art (<ref target="https://linked.art/">https://linked.art/</ref>). In addition to leveraging CIDOC-CRM as the core ontology, Linked Art relies heavily on the Getty Vocabularies as foundational sources of shared identity. The information managed in the model is accessible via the modern JSON-LD format, designed to make it easy for software engineers to work with graph data, without being deeply entrenched in the semantic web world. At the heart of the Linked Art design is a key shift from expectations that a museum-derived ontology would focus on the object, to instead a focus on the events in which the object plays a role. The artwork is still clearly and thoroughly described within the model (as an object, with information including type, titles, identifiers, descriptions, materials, dimensions, parts, current location, …) but the model allows for a provenance component that tracks “the events in which the object of interest is created or discovered, transferred between owners or custodians, until it is lost, destroyed or in its present location” (<ref target="https://linked.art/model/provenance/">https://linked.art/model/provenance/</ref>). These events are the glue that brings together the objects, actors, locations, and dates. Taking an auction as an example, it requires description of the overall event (who, what, where, and when) and then the subsequent sub-events, meaning the complex transactions that each lot (or groups of lots) entail. The final purchase (aka hammer) price and owner is important in this model, but this information should not be considered in isolation; when feasible, it is desirable to also include the starting price, reserve price, and estimated price and any known bid amounts. It is also crucial to include the archival source, the auction catalogue in this case, to link the evidence to the modeled assertions. </p>
+                    <p>To complete the remodel project, a new content management system had to be selected because the STAR system could not accommodate Linked Open Data. The Getty has decided to repurpose the Arches information system, developed by the <orgName key="Getty Conservation Institute" ref="http://www.wikidata.org/entity/Q3297630">Getty Conservation Institute</orgName> and the World Monuments Fund to provide an open-source, web- and geospatially-based means by which to inventory immovable cultural heritage (<ref target="https://archesproject.org/">https://archesproject.org/</ref> .) Arches implements the relevant standards (including coming preloaded with CIDOC-CRM), is customizable, publishes information as Linked Open Data, and was already designed to accommodate the relationships between objects, actors, documents, and places. It is thus well-suited to this project, although it has required extensive enhancements to meet the requirements of the data model and to present a usable and useful interface to both content editors and researchers using the data. We also recognize the existence of alternative Linked Open Data platforms for cultural heritage institutions, such as ResearchSpace and Timbuktoo, and have considered the advantages/disadvantages of each.</p>
+                    <p>Of significance for the purposes of this workshop are the following sub-topics and lessons we have learned (and continue to learn) as we address the following challenges:<list type="bulleted">
+                        <item>The application and extension of an existing standard, namely CIDOC-CRM, to solve the challenge of digital representation (as described above).</item>
+                        <item>The application of existing controlled vocabularies, namely the Getty Vocabularies, in the migration from a legacy database structure to Linked Open Data. While a significant component of the data is inherently commensurate with the Getty Vocabularies, some of it is not (thus far). Should the Getty Vocabularies, a resource for the broader field, be adjusted for the needs of this project; that is, would expanding, for example, the Union List of Artist’s Names to include the names of buyers and sellers be of benefit to the field or distort the nature of this resource? Who has the moral authority to assert the identity (unique resource identifier), for example, of an individual named in an inventory—the institution curating the inventory into a data resource or the institution that holds the original archival document? If we agree that it is the latter, then we must anticipate an ongoing process of identification reconciliations and concordances as many cultural heritage institutions have not yet moved into Linked Open Data. The latter would be a resource-intensive effort; are institutions prepared for this long-term approach to data sustainability, interoperability, and usefulness?</item>
+                        <item>Ontology re-use, improvement and precision. The Getty as an institution anticipates uses of the Linked Art data model for not only the Provenance Index but other digital data sources, such as the collection of digitized special collections artifacts. Yet each original archival resource has the potential to impact the data model. Even in the case of a single dealer’s business records, record keeping strategies and the information collected changed over time. What impulse/business need drives the data model: a desire for stability and long-term re-use, which may require dispensing with certain levels of granularity (and the archival evidence represented), or fully accurate representation of the art world as traced in archival and other institutional records? And, of course, full accuracy raises the specter of <persName key="Jorge Luis Borges" ref="http://dbpedia.org/resource/Jorge_Luis_Borges">Jorge Luis Borges</persName>’ short story “<title ref="https://commons.cwrc.ca//islandora:ab0445db-dd7e-476a-b8fe-e8aa065a9d29" key="To One Gone to the Wars" level="m" cert="high">On Exactitude in Science</title>” which points up the impossibility of the ‘perfect’ map, which would end up representing the world on a one-to-one scale. Such precision undermines the effort of modeling the data and also thwarts effective search. This gives rise to the subtopic of …</item>
+                        <item>Tensions between simplicity and complexity or nuance.</item>
+                        </list></p>
+                    <p>In addition, we would like to surface issues and questions relating to using new data models derived from ontologies/graph data to serve a research community. The range of users of the Getty Provenance Index is arguably quite diverse in terms of knowledge and understanding of Linked Open Data. Will these users understand the nature of graph data and how it can and cannot be served up through a universal user interface? In other words, will researchers be able to manage the intellectual shift from the flat database, with individual records that closely mirror (albeit in an enhanced fashion) the original archival source, to a dynamic collection of events bound together by shared relationships between objects, actors, places, and time?</p>
+                </div>
+                <div type="sub-section">
+                    <head>Data model</head>
+                    <p>Each of the source datasets involved in the <orgName ref="https://commons.cwrc.ca//cwrc:9b7e8291-1609-490b-b98a-cd1d5020e50c" key="Mapping Manuscript Migrations" cert="high">MMM</orgName> project have their own preconditions and goals, and thus follow their own data modeling conventions. The Schoenberg Database records primarily provenance events and observations of manuscripts at specific points in time, based on, e.g., auction catalogs, while in Bibale and the Bodleian catalogue the main focus is on describing manuscripts as objects. In order to aggregate the datasets and use them with shared user interfaces and tools for answering a wide range of research questions, a unified data model for harmonizing them is needed.</p>
+                    <p>The model applied in the project is based on the CIDOC-CRM and FRBROO ontologies, where the essential distinction between works, expressions, manifestations, and items are considered [3]. The most essential core classes in the model are (1) physical manuscript objects with properties such as shelf-mark, owner and title, and (2) provenance events that describe events related to the manuscripts, such as production, appearance in an auction, acquisition, etc. These ontologies were chosen as the basis because they are modern standards for data harmonization in museums and libraries, respectively, and they support event-based modeling needed in modeling provenance data that are essentially chains of events concerning the manuscript objects.</p>
+                    <p>The CIDOC-CRM and FRBROO ontologies have been extended in the MMM project to suit the modeling needs of the source databases. Extensions include 1) subclasses of crm:E54_Dimension for representing the height, width, and folio, column, and line count of the manuscript; 2) specific properties for linking the entities to source databases, such as to manuscript records, observation entries, and data providers; 3) subproperties of crm:P1_is_identified_by to express different shelfmark conventions; and 4) representation of the roles of participants in events, such as author, scribe, artist, binder, patron or selling agent.</p>
+                </div>
+                <div type="sub-section">
+                    <head>Places</head>
+                    <p>The majority of places in the source datasets for the MMM project can be matched to identifiers from one or more of the most widely used generic Linked Open Data vocabularies: the Getty Thesaurus of Geographical Names (TGN) and GeoNames. <orgName key="Getty Thesaurus of Geographic Names" ref="http://www.wikidata.org/entity/Q1520117">TGN</orgName> is much smaller than GeoNames but more historically oriented and actively curated. Neither has anything like the coverage of the gazetteers produced by mapping agencies. For <placeName key="United Kingdom" ref="http://dbpedia.org/resource/United_Kingdom">Great Britain</placeName>, for example, TGN has only half as many places names as GeoNames, but this in its turn has only a fraction of the names provided by the Ordnance Survey. [4]</p>
+                    <p>The MMM datasets, in which medieval, early modern, and modern place names are all present, have their preferred default vocabulary: <orgName key="GeoNames" ref="http://www.wikidata.org/entity/Q830106">GeoNames</orgName> for Bibale, and TGN for Schoenberg and Oxford. None of these datasets makes use of a gazetteer specifically designed to cover medieval places and their medieval names. This is partly, at least, because the evidence in the MMM source datasets focuses on the history of manuscripts in the post-medieval world. The places referred to are usually (though not always) the same as places which exist today, and they are usually presented in modern languages, not in Latin. For medieval places in <placeName key="England England United Kingdom" ref="http://geonames.org/6269131">England</placeName>, the best source of data is the <title ref="http://viaf.org/viaf/177025655/" key="English Place-Name Society (Series)" level="m" cert="high">Survey of English Place Names</title>, published by the <orgName ref="http://www.wikidata.org/entity/Q5378346" key="English Place-Name Society" cert="high">English Place Name Society</orgName> and digitized as part of the Historical Gazetteer of England’s Place-Names. This is not yet available as Linked Data, though its creators claimed that it would be “relatively easy to convert it to RDF”. [5]</p>
+                </div>
+                <div type="sub-section">
+                    <head>Persons</head>
+                    <p>In the source datasets for the MMM project, “person” entities can cover everything from medieval authors to early modern owners to modern buyers and sellers of manuscripts. The three datasets are consistent in using VIAF identifiers as their primary source for persons. In the <orgName key="Schoenberg Database of Manuscripts (SDBM)" ref="http://www.wikidata.org/entity/Q94994669">Schoenberg Database of Manuscripts</orgName>, <orgName key="Virtual International Authority File" ref="http://www.wikidata.org/entity/Q54919">VIAF</orgName> is the preferred source. In the Bodleian catalogue, VIAF identifiers are supplemented by other sources, including the <orgName ref="http://www.wikidata.org/entity/Q131454" key="Library of Congress" cert="high">Library of Congress</orgName>, <orgName key="Wikidata" ref="http://www.wikidata.org/entity/Q2013">Wikidata</orgName>, <orgName key="SUDOC" ref="http://www.wikidata.org/entity/Q2597810">Sudoc</orgName>, <persName key="Gemeinsame Normadatei">Gemeinsame Normadatei</persName> (GND), and the <title ref="http://www.wikidata.org/entity/Q17565097" key="Oxford Dictionary of National Biography" level="m" cert="high">Oxford Dictionary of National Biography</title>. Bibale also prefers VIAF, but adds identifiers from Wikidata and the ARK identifiers from the Bibliothèque nationale de <placeName key="Republic of France  France" ref="http://geonames.org/3017382">France</placeName>; Biblissima identifiers are also referenced.</p>
+                    <p>None of the MMM datasets makes reference to any specifically medieval name authorities. There are many lists and catalogues of medieval persons and their names, and a significant number of these are available in digital form. [6] It is worth noting that several of the digital sources are commercial products, distributed by publishers like <orgName key="Brepols" ref="http://www.wikidata.org/entity/Q981917">Brepols</orgName>. These include <title ref="http://viaf.org/viaf/178087067/" key="Europa sacra" level="m" cert="high">Europa Sacra</title> (with data on 30,000 church prelates) and the author indexes to the Library of Latin Texts. Some specific initiatives are already under way, including the work by the “Medieval Publishing” project at the <orgName key="University of Helsinki" ref="http://www.wikidata.org/entity/Q28695">University of Helsinki</orgName> to transform <persName key="Richard Sharpe" ref="http://viaf.org/viaf/40146825568807632710/">Richard Sharpe</persName>’s Handlist of the Latin Writers of Great Britain and Ireland before 1540 into database form. [7] Publishing this dataset as Linked Data is envisaged as a second stage for this project.</p>
+                </div>
+                <div type="sub-section">
+                    <head>Organizations</head>
+                    <p>Organizations are not always distinguished from places in the source datasets for the MMM project. The interface to the Oxford manuscripts catalogue simply includes organizations in its browsable list of “places”. This is because the majority of these organizations are medieval religious houses of various kinds, which are usually known by a place name, such as “<placeName key="Abingdon (Angleterre, GB)" ref="http://viaf.org/viaf/1689156565716923500001/">Abingdon</placeName>, Benedictine abbey”. Behind the scenes, however, they are linked to the VIAF (Virtual International Authority File) vocabulary. Other identifiers are also given, including Wikidata, the <orgName key="Library of Congress" ref="http://www.wikidata.org/entity/Q131454">Library of Congress</orgName>, Sudoc, and ARK identifiers from the Bibliothèque nationale de France.</p>
+                    <p>In the Schoenberg Database of Manuscripts, on the other hand, organizations are combined with persons into a “Names” file. These are both medieval and modern, and include a significant number of religious houses. A large proportion of the organizational names have been matched to VIAF identifiers. Bibale’s organizations consist mostly of libraries and other institutional owners of manuscripts (especially medieval and early modern religious houses). VIAF is again consistently used, accompanied by identifiers from the Bibliothèque nationale de France, Biblissima, and Wikidata.</p>
+                    <p>Organizations as a class raise various questions of scope and definition in a medieval context. In medieval England, for instance, Anglo-Saxon administrative units like “hundreds” could be considered primarily as places, since they were defined as geographical areas within a county or shire. But the Norman system of government overlaid on top of this framework after 1066 was less conceptually clear; the “honours” and “baronies” of the great lords consisted of various estates scattered across the country, which were primarily organizational and administrative in nature. [8] A specialist Linked Open Data vocabulary for medieval organizations in England could be drawn from existing lists of baronies and religious houses, together with data relating to offices within the structure of royal government and to the administrative hierarchy of the Church.</p>
+                </div>
+                <div type="sub-section">
+                    <head>Works</head>
+                    <p>The Works class is problematic in the source datasets for the MMM project. They contain very little in the way of links to external Linked Open Data identifiers for works, and some do not even distinguish “works” – or even titles – as a separate element in their data. The Schoenberg Database, for example, does not contain separate records for works or titles; they are simply recorded as part of the observation record. In the Oxford manuscript catalogue, on the other hand, the <orgName ref="http://viaf.org/viaf/4651159035168601380009/" key="Bodleian Library (Oxford)" cert="high">Bodleian Library</orgName> provides a unique ID number for more than 12,000 works. It records the “uniform title” (author + work), the “manuscript title”, and the “normalised manuscript title”. There are more than 360 links to external identifiers – primarily Pinakes for Greek works and Mirabile for Latin works. Bibale distinguishes between “Oeuvre” (i.e., work) and the “Text/Edition” (i.e., manifestation). There are unique identifiers for both of these, but no links to external identifiers.</p>
+                    <p>There are numerous lists and catalogues of medieval religious and literary writings, and many of these are available in some kind of digital form. [6] Among the issues to be tackled here are the Bible and its derivatives (the focus of much medieval writing, especially in the earlier Middle Ages); the multiplicity of anonymous works – often without any kind of title and often identifiable only by their opening words (their “incipit”); and the way in which many medieval “works” actually consist of annotations, commentaries, and glosses on earlier works, as well as re-workings and abridgements of them. The work of the “Medieval Authorship” project is relevant here too, since Sharpe’s Handlist identifies and provides titles for the writings of medieval British and Irish authors.</p>
+                </div>
+                <div type="sub-section">
+                    <head>Manuscripts</head>
+                    <p>Each of the MMM source datasets attempts to go beyond simply using the shelf-mark and repository for identifying individual manuscripts. The Bibale database contains links to another IRHT database, Medium, where 109,000 manuscripts have their own ARK identifiers. In the Bodleian catalogue, each manuscript has a unique ID number, but there is no authority list for manuscripts (unlike persons, places, organizations, and works). The creation of ARK identifiers for Oxford manuscripts is currently being investigated by the MMM project and the Bodleian Library. In the Schoenberg Database, each of the nearly 25,000 manuscript records has a unique URL, but they are not accompanied by links to any external identifiers or to an authoritative shelf-mark or title.</p>
+                    <p>The need for a system of Linked Data identifiers for medieval manuscripts is now broadly accepted, and has been the subject of several meetings over the last two years. Under the auspices of the <orgName key="Institut de recherche et d'histoire des textes" ref="http://www.wikidata.org/entity/Q1664768">IRHT</orgName>, a project has been established to develop and test a specification for an International Standard Manuscript Identifier or ISMI. [9] There is still considerable work to be done in defining the scope and purpose of ISMI, as well as in confirming and building the technical solution. Even when the ISMI registry is operational, it will still take a major effort to create and embed these identifiers in local databases for manuscripts with known and established current institutional locations and shelf-marks. Nevertheless, ISMI has the potential to revolutionize medieval manuscript studies by enabling large-scale inter-linking of heterogeneous manuscript data.</p>
+                </div>
+                <div type="sub-section">
+                    <head>Conclusion</head>
+                    <p>We believe that it is critical to develop, publish and re-use Linked Open Data ontologies and vocabularies in order to further the interoperability of digital resources for medieval studies. The combination of CIDOC-CRM and FRBROO ontologies, with some extensions, appears to function as a suitable data model for representing manuscripts. The more generalist vocabularies like VIAF and TGN already have a reasonably good coverage of medieval persons, places, and organizations, as the MMM project has been able to demonstrate. But the level of that coverage has been inflated to some extent by the scope of datasets relevant to manuscript research, since they include many early modern and modern names as well as medieval ones.</p>
+                    <p>The next priority for medieval studies should be the conversion of existing specialist vocabularies to Linked Data formats, accompanied by an investigation of ways in which they can be associated with the more general vocabularies. The work being done by the “Medieval Publishing” project provides a possible model here. While persons, places, and organizations might be considered the “low-hanging fruit” in this context, it will be more important and valuable for the longer term to tackle the more complex issues around works and manuscripts – the latter within the framework envisaged by the ISMI initiative.</p>
+                </div>
+                <div type="sub-section">
+                    <head>References</head>
+                    <listBibl>
+                        <anchor/>
+                        <bibl><title>Linked Pasts</title>, http://linkedpasts.org, last accessed <date>4 May 2019</date>.</bibl>
+                        <bibl><persName> <persName ref="http://viaf.org/viaf/169304061/" key="Hyvönen, Eero" cert="high" type="real">Hyvönen, E.</persName></persName>, <persName><persName ref="https://orcid.org/0000-0002-9571-7260" key="Ikkala, E." cert="high" type="real">Ikkala, E.</persName></persName>, <persName><persName ref="http://viaf.org/viaf/305619541/" key="Tuominen, J." cert="high" type="real">Tuominen, J.</persName></persName> et al.: “<title><title ref="https://commons.cwrc.ca//islandora:32095a6a-75cf-41dd-8f71-c0f53947d661" key="The Bairns" level="m" cert="high">A Linked Open Data Service and Portal for Pre-Modern Manuscript Research</title></title>”, DHN 2019 Conference (2019), https://seco.cs.aalto.fi/publications/2019/hyvonen-et-al-dhn-mmm-2019.pdf, last accessed <date>4 May 2019</date>.</bibl>
+                        <bibl><persName><persName ref="https://orcid.org/0000-0002-2750-7579" key="De Sabbata, S." cert="high" type="real">De Sabbata, S.</persName></persName>, <persName><persName ref="https://orcid.org/0000-0002-0641-1172" key="Acheson, E." cert="high" type="real">Acheson, E.</persName></persName>: “<title><title ref="https://www.worldcat.org/title/geographies-of-gazetteers-in-great-britain/oclc/1030050882" key="Geographies of gazetteers in Great Britain" level="m" cert="high">Geographies of gazetteers in Great Britain</title></title>”, 24th GIS Research UK (GISRUK 2016) Conference (2016), https://lre/le/ac/uk/handle/2381/38182, last accessed <date>4 May 2019</date>.</bibl>
+                        <bibl><persName><persName ref="http://isni.org/isni/0000000116057368" key="Le Bœuf, P." cert="high" type="real">Le Bœuf, P.</persName></persName>: “<title><title ref="http://www.wikidata.org/entity/Q58555567" key="Modeling Rare and Unique Documents: Using FRBROO/CIDOC CRM" level="m" cert="high">Modeling rare and unique documents: Using FRBROO/CIDOC CRM</title></title>”, Journal of Archival Organization 10(2), pp. 96–106 (2012), https://doi.org/10.1080/15332748.2012.709164, last accessed <date>9 May 2019</date>.</bibl>
+                        <bibl><persName><persName ref="http://viaf.org/viaf/65235644/" key="Grover, Claire, 1958-" cert="high" type="real">Grover, C.</persName></persName>, <persName>Tobin, R.</persName>: “<title><title ref="http://dx.doi.org/doi:10.3115/v1/W14-0617" key="A Gazetteer and Georeferencing for English Historical Documents" level="m" cert="high">A Gazetteer and Georeferencing for English Historical Documents</title></title>”, Proceedings of the 8th Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH) @ EACL 2014, pp. 119-127 (2014), http://www.aclweb.org/anthology/W14-0617, last accessed <date>4 May 2019</date>.</bibl>
+                        <bibl><persName>Wright, C.</persName>: <title>Manuscript Research: Identifying Texts and Locating Secondary Literature</title>, https://bibliography.arc-humanities.org/manuscript-research-identifying-texts-and-locating-secondary-literature/, last accessed <date>4 March 2019</date>.</bibl>
+                        <bibl><title><ref target="https://www.helsinki.fi/en/researchgroups/medieval-publishing#:~:text=from%20c.&amp;text=1000%20to%201500.,at%20the%20University%20of%20Helsinki.">Medieval Publishing from c. 1000 to 1500</ref></title>, https://www.helsinki.fi/en/researchgroups/medieval-publishing, last accessed <date>4 March 2019</date>.</bibl>
+                        <bibl><persName><persName ref="http://viaf.org/viaf/6404147665832860670009/" key="Saunders, John" cert="high" type="real">Sanders, I.</persName></persName>: <title>English Baronies: a Study of their Origin and Descent</title>, 1086-1327. <publisher><orgName key="Oxford University Press" ref="http://www.wikidata.org/entity/Q217595">Oxford University Press</orgName>, Oxford</publisher> (<persName><date when="1960" cert="high">1960</date></persName>).</bibl>
+                        <bibl><persName>Cassin, M.</persName>: <title>ISMI: International Standard Manuscript Identifier: Project of Unique and Stable Identifiers for Manuscripts</title> (2018), https://www.manuscript-cultures.uni-hamburg.de/files/mss_cataloguing_2018/Cassin_pres.pdf, last accessed <date>4 March 2019</date>.</bibl>
+                    </listBibl>
+                </div>
+            </div>
+            <!-- To add an index -->
+        </body>
+    </text>
+</TEI>
